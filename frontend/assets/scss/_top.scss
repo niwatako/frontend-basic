@@ -179,7 +179,7 @@ p {
     font-size: 1.2em;
     font-weight: bold;
     font-family: $font_set_ja;
-    white-space:nowrap;      
+    white-space:nowrap;
     @include mediaPC {
       margin-top: 3em;
       font-size: 1.4em;
@@ -200,7 +200,7 @@ p {
           margin-right: 4px;
         }
       }
-      
+
     }
   }
   .hero__action-area {
@@ -216,17 +216,17 @@ p {
   .main-menu {
     list-style: none;
     display: flex;
-    margin: 0 auto;    
+    margin: 0 auto;
     width: 100%;
     padding: 0px;
     justify-content: space-around;
     margin-bottom: 100px;
-    flex-wrap: wrap;    
-    @include mediaSP {      
+    flex-wrap: wrap;
+    @include mediaSP {
       width: 100%;
-      justify-content: space-between;      
-    } 
-    &__item {      
+      justify-content: space-between;
+    }
+    &__item {
       border: solid 4px #FFF;
       text-align: center;
       margin: 0 10px;
@@ -235,18 +235,18 @@ p {
       @include mediaSP {
         width: 30%;
         margin: 0 0px;
-        margin-bottom: 10px; 
+        margin-bottom: 10px;
         box-sizing: border-box;
-        font-size: 0.7em;        
+        font-size: 0.7em;
       }
       @include mediaPC {
         flex:1;
         &:hover{
-          letter-spacing: 1px;    
+          letter-spacing: 1px;
           background: rgb(242,131,104); /* Old browsers */
           background: -moz-linear-gradient(left,  rgba(242,131,104,1) 27%, rgba(87,192,237,1) 100%); /* FF3.6-15 */
           background: -webkit-linear-gradient(left,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to right,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+          background: linear-gradient(to right,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         }
       }
       .btn {
@@ -254,10 +254,10 @@ p {
           display: block;
           padding: 10px;
           width: 100%;
-          color: #FFF;      
-          box-sizing: border-box;  
+          color: #FFF;
+          box-sizing: border-box;
         }
-      }      
+      }
     }
   }
   .to-menu {
@@ -272,21 +272,21 @@ p {
     background: rgb(242,131,104); /* Old browsers */
     background: -moz-linear-gradient(left,  rgba(242,131,104,1) 27%, rgba(87,192,237,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+    background: linear-gradient(to right,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color: #FFF;
     width: 70px;
     height: 70px;
     z-index: 100;
-    &__link {      
+    &__link {
       position: absolute;
       top: -7px;
       left: 0;
-      color: inherit;   
+      color: inherit;
       display: block;
-      width: 100%;    
-      height: 100%;   
+      width: 100%;
+      height: 100%;
     }
-    &__icon {    
+    &__icon {
       font-size: 54px;
     }
     &__caption {
@@ -298,16 +298,16 @@ p {
       bottom: 20px;
       width: 40px;
       height: 40px;
-      &__link {      
+      &__link {
         position: absolute;
         top: 0px;
         left: 0;
-        color: inherit;   
+        color: inherit;
         display: block;
-        width: 100%;    
-        height: 100%;   
+        width: 100%;
+        height: 100%;
       }
-      &__icon {    
+      &__icon {
         font-size: 24px;
       }
       &__caption {
@@ -385,7 +385,7 @@ p {
     .container{
       text-align: center;
       max-width: 1200px;
-      .session__lists{                
+      .session__lists{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -394,7 +394,7 @@ p {
           margin-left: 2.5%;
           margin-bottom:20px;
           border:solid 10px white;
-          box-sizing: border-box;          
+          box-sizing: border-box;
           background-image: url("../../img/bg.jpg");
           display: flex;
           @include mediaSP {
@@ -405,16 +405,16 @@ p {
           }
           .session__list__img {
             display: inline-block;
-            width: 104px;   
+            width: 104px;
             height: 104px;
             background-size: cover;
-            box-sizing: border-box;            
-            @include mediaSP {     
+            box-sizing: border-box;
+            @include mediaSP {
               height: 170px;
-              background-position: 50% 0%;         
+              background-position: 50% 0%;
               background-color: white;
-            }     
-            
+            }
+
           }
           .session__list__text{
             display: inline-block;
@@ -434,7 +434,7 @@ p {
           &--engineer {
             background-position: 0 0;
           }
-        }        
+        }
       }
       .btn--session{
           @include btn--line();
@@ -449,7 +449,7 @@ p {
   .handson__title__background{
     @include section--title--background;
     background-image: url("../../img/heading_handson.png");
-    .container{      
+    .container{
       .handson__title {
         color: $font-light;
       }
@@ -474,12 +474,12 @@ p {
           margin:30px auto;
           border-radius: 4px;
           background-image: url("../../img/bg.jpg");
-          display: flex;   
-          @include mediaSP {                
+          display: flex;
+          @include mediaSP {
                 width: 100%;
                 flex-direction: column;
-          }       
-          .handson__list__head{              
+          }
+          .handson__list__head{
               width:300px;
               background-color:white;
               padding:10px;
@@ -487,23 +487,23 @@ p {
               border-radius: 3px;
               @include mediaSP {
                 border-radius: 3px 3px 0 0;
-                width: 100%;                
+                width: 100%;
               }
           }
-          .handson__list__body{              
+          .handson__list__body{
               width:500px;
               padding:10px;
               color: $font-light;
               box-sizing: border-box;
               @include mediaSP {
-                width: 100%;                
+                width: 100%;
               }
           }
         }
         $max:4;
-        @for $i from 1 through $max {  
+        @for $i from 1 through $max {
           .handson__list:nth-child(#{$max}n + #{$i} ) {
-            background-position: #{$i * 100/$max + "%"} #{$i * 100/$max + "%"};  
+            background-position: #{$i * 100/$max + "%"} #{$i * 100/$max + "%"};
           }
         }
       }
@@ -512,15 +512,15 @@ p {
           .handson__detaill__link{
             @include btn;
           }
-        }      
-    }    
+        }
+    }
   }
 }
 #discussion{
   .discussion__title__background{
     @include section--title--background;
     background-image: url("../../img/heading_discussion.png");
-    .container {      
+    .container {
       .discussion__title {
         color: $font-light;
       }
@@ -538,7 +538,7 @@ p {
           color:$font-light;
           margin-bottom:50px;
           padding:0;
-        }        
+        }
         .discussion__list{
           list-style: none;
           padding:10px;
@@ -561,17 +561,17 @@ p {
           background-image:url("../../img/bg.jpg");
         }
         $max:4;
-        @for $i from 1 through $max {  
+        @for $i from 1 through $max {
           .discussion__list:nth-child(#{$max}n + #{$i} ) {
-            background-position: #{$i * 50/$max + "%"} #{$i * 100/$max + "%"};  
-          }          
+            background-position: #{$i * 50/$max + "%"} #{$i * 100/$max + "%"};
+          }
           .discussion__list:nth-child(#{$max}n + #{$i} ):after{
-            background-position: calc(#{$i * 50/$max + "%"} - 200px) #{$i * 100/$max + "%"};  
+            background-position: calc(#{$i * 50/$max + "%"} - 200px) #{$i * 100/$max + "%"};
           }
           @include mediaSP {
             .discussion__list:nth-child(#{$max}n + #{$i} ):after{
-              background-position: calc(#{$i * 50/$max + "%"} - 200px) #{$i * 100/$max + "%"};  
-            } 
+              background-position: calc(#{$i * 50/$max + "%"} - 200px) #{$i * 100/$max + "%"};
+            }
           }
         }
         .btn--discussion{
@@ -588,7 +588,7 @@ p {
   .product-contest__title__background{
     @include section--title--background;
     background-image: url("../../img/heading_contest.png");
-    .container {      
+    .container {
       .product-contest__title {
         color: $font-light;
       }
@@ -622,28 +622,28 @@ p {
         padding: 30px 70px;
         @include mediaSP {
           padding: 30px 10px;
-        }     
-        max-width: 600px;          
+        }
+        max-width: 600px;
         .product-contest__requirements__merit-list {
           text-align: left;
           list-style: none;
           padding: 0;
-          margin: 0 auto;          
+          margin: 0 auto;
           max-width: 400px;
           @include mediaPC {
                 max-width: 600px;
-          }     
+          }
           li {
-            $icon-size: 40px;    
-            max-width: 100%;          
+            $icon-size: 40px;
+            max-width: 100%;
             &:not(:last-child){
-              margin-bottom: 10px;        
+              margin-bottom: 10px;
             }
             p {
               display: inline-block;
               line-height: $icon-size;
               vertical-align: top;
-              width: calc(100% - 60px);              
+              width: calc(100% - 60px);
               @include mediaSP{
                 max-width: calc(100% - 60px);
               }
@@ -654,12 +654,12 @@ p {
               height: $icon-size;
               line-height: $icon-size;
               text-align: center;
-              margin-right: 10px;              
+              margin-right: 10px;
               border-radius: 10px;
               color: #FFF;
               background-image: url("../../img/bg.jpg");
-            }            
-            
+            }
+
             &:nth-child(1){
               .product-contest__requirements__merit-list__checkbox {
                 background-position: 59% 87%;
@@ -671,12 +671,12 @@ p {
               }
             }
             &:nth-child(3){
-              .product-contest__requirements__merit-list__checkbox {                
+              .product-contest__requirements__merit-list__checkbox {
                 background-position: 22% 55%;
               }
-            }            
+            }
           }
-        }        
+        }
       }
     }
     .btn--product-contest {
@@ -692,7 +692,7 @@ p {
   .after-party__title__background {
     @include section--title--background;
     background-image: url("../../img/heading_afterParty.png");
-    .container {      
+    .container {
       .after-party__title {
         color: $font-light;
       }
@@ -708,9 +708,9 @@ p {
     }
     .after-party__image {
       width: 100%;
-      height: auto;      
+      height: auto;
       border-radius: 40px;
-      background-size: cover;      
+      background-size: cover;
       background-image: url("../../img/afterParty_img.jpg");
       margin: 0 auto;
       margin-bottom: 30px;
@@ -718,7 +718,7 @@ p {
         content: "";
         display: block;
         padding-top: 50%;
-      }      
+      }
     }
   }
   .btn--after-party {
@@ -737,9 +737,9 @@ p {
 
   .container {
     max-width: 1200px;
-    padding-top: 30px; 
+    padding-top: 30px;
   }
-  .sponsoredBy__heading {    
+  .sponsoredBy__heading {
     font-size: 20px;
     color: white;
     @include heading(white);
@@ -755,28 +755,28 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }  
+  }
   .sponsoredBy__lists--rank2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  } 
+  }
   .sponsoredBy__lists--rank1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }  
+  }
   .sponsoredBy__list--rank1 {
     display: inline-block;
     margin-bottom: 30px;
-    @include mediaPC {     
-      width: calc(25% - 30px);      
+    @include mediaPC {
+      width: calc(25% - 30px);
       margin: 0 15px;
-      margin-bottom: 30px;         
+      margin-bottom: 30px;
     }
-    @include mediaSP {     
+    @include mediaSP {
       width: 47%;
       margin-left: 2.5%;
     }
@@ -788,9 +788,9 @@ p {
       &:nth-child(odd){
         margin-right: 30px;
       }
-      width: 40%;      
+      width: 40%;
     }
-    @include mediaSP {     
+    @include mediaSP {
       width: 60%;
       margin-left: 20%;
       margin-right: 20%;
@@ -798,21 +798,21 @@ p {
   }
   .sponsoredBy__list--rank3 {
     display: inline-block;
-    margin-bottom: 30px;  
-    @include mediaPC {     
-      width: calc(50% - 30px);      
+    margin-bottom: 30px;
+    @include mediaPC {
+      width: calc(50% - 30px);
       margin: 0 15px;
       margin-bottom: 30px;
     }
-    @include mediaSP {     
+    @include mediaSP {
       width: 80%;
       margin-left: 10%;
       margin-right: 10%;
     }
   }
-  .sponsoredBy__list__logo {    
+  .sponsoredBy__list__logo {
     width: 100%;
-    height: auto;   
+    height: auto;
   }
   .sponsoredBy__link-area {
     display: inline-block;
@@ -825,10 +825,10 @@ p {
 
 #summary {
   text-align: center;
-  @include page-bottom;  
+  @include page-bottom;
 
   .container {
-    max-width: 1200px;    
+    max-width: 1200px;
   }
   .summary__heading {
     font-size: 20px;
@@ -886,7 +886,11 @@ p {
     text-align: left;
     padding: 10px;
     box-sizing: border-box;
-  }  
+    a {
+      color: #FFF;
+      text-decoration: underline;
+    }
+  }
 
   .access__map__background {
     background-image: url("../../img/bg.jpg");
@@ -906,7 +910,7 @@ p {
       #map {
         width: 100%;
         height: 100%;
-      }   
+      }
     }
   }
 
@@ -933,7 +937,7 @@ p {
     }
     &__item {
       text-align: left;
-      flex: 1;   
+      flex: 1;
       @include mediaSP {
         margin-bottom: 10px;
       }
