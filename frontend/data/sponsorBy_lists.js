@@ -77,6 +77,12 @@ const sponsors = [
         link: "https://www.pxgrid.com/ ",
         rank: 1,
     },
+    {
+        name: "有限会社アップルップル",
+        photo: "sponsor_bnr_appleple.png",
+        link: "https://www.appleple.com",
+        rank: 1,
+    },
 ]
 
 let result = {}
