@@ -83,6 +83,24 @@ const sponsors = [
         link: "https://www.appleple.com",
         rank: 1,
     },
+    {
+        name: "飲食店の求人・転職サイト クックビズ",
+        photo: "sponsor_bnr_cookbiz.png",
+        link: "https://cookbiz.jp",
+        rank: 1,
+    },
+    {
+        name: "AQUENT",
+        photo: "sponsor_bnr_aquent.png",
+        link: "https://aquent.co.jp/",
+        rank: 2,
+    },
+    {
+        name: "ピクシブ株式会社",
+        photo: "sponsor_bnr_pixiv.png",
+        link: "http://www.pixiv.co.jp/",
+        rank: 2,
+    },
 ]
 
 let result = {}
