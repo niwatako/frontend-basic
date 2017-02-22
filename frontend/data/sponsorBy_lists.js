@@ -107,6 +107,12 @@ const sponsors = [
         link: "http://gsacademy.tokyo/",
         rank: 2,
     },
+    {
+        name: "株式会社ミニマル・テクノロジーズ",
+        photo: "sponsor_bnr_minimalTechnologies.png",
+        link: "https://wovn.io/jp/trial",
+        rank: 1,
+    },
 ]
 
 let result = {}
