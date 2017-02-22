@@ -101,6 +101,12 @@ const sponsors = [
         link: "http://www.pixiv.co.jp/",
         rank: 2,
     },
+    {
+        name: "ジーズアカデミーTOKYO",
+        photo: "sponsor_bnr_gsAcademyTokyo.png",
+        link: "http://gsacademy.tokyo/",
+        rank: 2,
+    },
 ]
 
 let result = {}
