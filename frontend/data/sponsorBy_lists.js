@@ -78,6 +78,12 @@ const sponsors = [
         rank: 1,
     },
     {
+        name: "酒処さかき",
+        photo: "sponsor_bnr_sakedokoroSakaki.png",
+        link: "https://sake.rdlabo.jp/",
+        rank: 1,
+    },
+    {
         name: "有限会社アップルップル",
         photo: "sponsor_bnr_appleple.png",
         link: "https://www.appleple.com",
@@ -111,6 +117,12 @@ const sponsors = [
         name: "株式会社ミニマル・テクノロジーズ",
         photo: "sponsor_bnr_minimalTechnologies.png",
         link: "https://wovn.io/jp/trial",
+        rank: 1,
+    },
+    {
+        name: "株式会社タンバリン",
+        photo: "sponsor_bnr_tambourine.png",
+        link: "https://www.tam-bourine.co.jp/",
         rank: 1,
     },
 ]
