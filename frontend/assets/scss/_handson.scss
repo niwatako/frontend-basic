@@ -101,11 +101,13 @@ p {
                   box-sizing: border-box;
                   font-weight: bold;
                   font-size: 1.4em;
+                  font-family: $font_set_ja;
                    @include mediaSP {
                      font-size: 1.4em;
                   }             
                 }
                 &__summary {
+                  font-family: $font_set_ja;
                   margin-top: 30px;
                   margin-bottom: 50px;
                   @include mediaSP {
@@ -124,6 +126,7 @@ p {
                     margin-right: 10px;
                   }
                   &__item {
+                    font-family: $font_set_ja;
                     display: inline-block;
                     text-align: center;
                     background-color: #FFF;
