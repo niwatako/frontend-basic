@@ -23,20 +23,20 @@ section#handson__child
                             br
                             each target in handson.target
                                 wbr
-                                span.handson__info__target__item #{target}
+                                .handson__info__target__item
+                                    span #{target}
                     .handson__mentor
-                        .handson__mentor__title メインメンター
                         .handson__mentor__icon(style="background-image: url('./img/handson/" + handson.mentor.photo + "')")
                         .handson__mentor__name
                             | #{handson.mentor.name}
-                            a.handson__mentor__link(href=handson.mentor.link )
+                            a.handson__mentor__link(href=handson.mentor.link ,target="_blank")
                                 i.fa.fa-link
                         p.handson__mentor__introduction
                             | #{handson.mentor.introduction}
                     .handson__to-detail
                         .handson__to-detail__title ハンズオンへの参加を考えている方はこちら
                         .handson__to-detail__btn
-                            a.handson__to-detail__link(href=handson.detail_link)
+                            a.handson__to-detail__link(href=handson.detail_link ,target="_blank")
                                 span 詳細を見る
         .btn--to-top
             a(href="/").to-top__link
