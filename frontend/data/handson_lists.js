@@ -49,7 +49,7 @@ module.exports = [
       name: "ショウノ シオリ",
       link: "https://chatbox-inc.com/member/shono/",
       photo: "mentor3.jpg",
-      introduction: "大阪にある制作会社tech veinでプログラマに愛されるWebデザイナをしています。CSS設計とマーケティングが得意です。日夜sketchの布教に尽力しています"
+      introduction: "株式会社chatboxでエンジニアとして楽しく働いています。"
     },
     detail_link: "https://kfug.connpass.com/event/51695/",
     field: "markup"
@@ -90,23 +90,23 @@ module.exports = [
     field: "markup"
   },
 
-  // {
-  //   id: 5,
-  //   technology: "Angular",
-  //   title: "Angular入門者ハンズオン",
-  //   summary: "AngularはGoogleによって開発されたフレームワークで、SPAやモバイル向けなど、現代のWebアプリケーション開発において必要なものが詰まっています。昨年、次世代となるAngular 2.x系の安定版がリリースされました。この機会に親しんでみませんか。",
-  //   target: [
-  //     "Angular初心者",
-  //     "SPA開発者",
-  //     "AngularJS経験者",
-  //   ],
-  //   mentor: {
-  //     name: "奥野 賢太郎 (armorik83)",
-  //     link: "https://github.com/armorik83",
-  //     photo: "mentor6.jpg",
-  //     introduction: "株式会社ピクセルグリッド所属のフロントエンド・エンジニア。Angularコミュニティng-kyoto代表。大規模Webアプリケーションの設計、構築を得意とする。"
-  //   },
-  //   detail_link: "https://kfug.connpass.com/event/51697/",
-  //   field: "engineer"
-  // },
+  {
+    id: 5,
+    technology: "Angular",
+    title: "Angular入門者ハンズオン",
+    summary: "AngularはGoogleによって開発されたフレームワークで、SPAやモバイル向けなど、現代のWebアプリケーション開発において必要なものが詰まっています。昨年、次世代となるAngular 2.x系の安定版がリリースされました。この機会に親しんでみませんか。",
+    target: [
+      "Angular初心者",
+      "SPA開発者",
+      "AngularJS経験者",
+    ],
+    mentor: {
+      name: "奥野 賢太郎 (armorik83)",
+      link: "https://github.com/armorik83",
+      photo: "mentor6.jpg",
+      introduction: "株式会社ピクセルグリッド所属のフロントエンド・エンジニア。Angularコミュニティng-kyoto代表。大規模Webアプリケーションの設計、構築を得意とする。"
+    },
+    // detail_link: "https://kfug.connpass.com/event/51697/",
+    field: "engineer"
+  },
 ]
