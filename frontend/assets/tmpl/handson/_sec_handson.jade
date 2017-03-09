@@ -33,11 +33,12 @@ section#handson__child
                                 i.fa.fa-link
                         p.handson__mentor__introduction
                             | #{handson.mentor.introduction}
-                    .handson__to-detail
-                        .handson__to-detail__title ハンズオンへの参加を考えている方はこちら
-                        .handson__to-detail__btn
-                            a.handson__to-detail__link(href=handson.detail_link ,target="_blank")
-                                span 詳細を見る
+                    if handson.detail_link
+                        .handson__to-detail
+                            .handson__to-detail__title ハンズオンの詳細、参加の注意点などはConnpassページをチェック！
+                            .handson__to-detail__btn
+                                a.handson__to-detail__link(href=handson.detail_link ,target="_blank")
+                                    span 詳細を見る
         .btn--to-top
             a(href="/").to-top__link
                 span TOPに戻る

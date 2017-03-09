@@ -65,8 +65,8 @@ module.exports = [
     ],
     mentor: {
       name: "アマギタカヨシ",
-      link: "http://amagitakayosi.hatenablog.com/ Twitter: https://twitter.com/amagitakayosi",
-      photo: "mentor4.png",
+      link: "http://amagitakayosi.hatenablog.com/",
+      photo: "mentor4.jpg",
       introduction: "株式会社はてなのフロントエンドエンジニア。京都でJavaScriptやTypeScript, Scalaを書いて暮らしています。"
     },
     detail_link: "https://kfug.connpass.com/event/51698/",
@@ -82,7 +82,7 @@ module.exports = [
     ],
     mentor: {
       name: "岡本 秀高",
-      link: "",
+      link: "https://wp-kyoto.net/",
       photo: "mentor5.jpg",
       introduction: "いろいろやってます"
     },
