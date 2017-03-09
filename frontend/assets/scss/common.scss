@@ -4,7 +4,7 @@
 @charset  "UTF-8";
 
 ::selection {
-  background: rgba(225,225,225,.4);
+  background: rgba(48,173,227,.3);
   color: $font;
 }
 
@@ -77,7 +77,7 @@ body{
 #footer {
   padding: 20px 0 40px;
   font-size: 13px;
-  background: rgba(64,98,111,.8);
+  background: rgba(64,98,111,9);
   .container {
     text-align: center;
   }
@@ -93,13 +93,13 @@ body{
     max-width: 180px;
   }
   .footer__lead {
-    line-height: 1.2;
+    line-height: 1.7;
     color: $font_light;
     a {
-      color:$blue;
-      transition: all .3s;
+      color: $font_light;
+      text-decoration:underline;
       &:hover {
-        color: $orange;
+        opacity: .8;
 
       }
     }
@@ -126,7 +126,7 @@ body{
   padding: 20px;
 }
 
-.to-menu {  
+.to-menu {
   text-align: center;
   position: fixed;
   top: 100px;
@@ -137,25 +137,27 @@ body{
   background: rgb(242,131,104); /* Old browsers */
   background: -moz-linear-gradient(left,  rgba(242,131,104,1) 27%, rgba(87,192,237,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+  background: linear-gradient(to right,  rgba(242,131,104,1) 27%,rgba(87,192,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   color: #FFF;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
+  font-size: 14px;
   z-index: 100;
-  &__link {      
+  &__link {
     position: absolute;
     top: -7px;
     left: 0;
-    color: inherit;   
+    color: inherit;
     display: block;
-    width: 100%;    
-    height: 100%;   
+    width: 100%;
+    height: 100%;
   }
-  &__icon {    
-    font-size: 54px;
+  &__icon {
+    margin-top: 3px;
+    font-size: 40px;
   }
   &__caption {
-    margin-top: -15px;
+    margin-top: -6px;
   }
   @include mediaSP {
     top: auto;
@@ -163,16 +165,16 @@ body{
     bottom: 20px;
     width: 40px;
     height: 40px;
-    &__link {      
+    &__link {
       position: absolute;
       top: 0px;
       left: 0;
-      color: inherit;   
+      color: inherit;
       display: block;
-      width: 100%;    
-      height: 100%;   
+      width: 100%;
+      height: 100%;
     }
-    &__icon {    
+    &__icon {
       font-size: 24px;
     }
     &__caption {
