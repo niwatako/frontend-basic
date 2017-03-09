@@ -45,25 +45,25 @@ p {
         }
         .handson-list {
           width: 100%;
-          max-width: 800px;
+          max-width: 900px;
           margin: 0 auto;
           margin-bottom: 50px;         
           &__item:not(:last-child) {
             margin-bottom: 50px;            
           }
           &__item {
-            border-radius: 30px;
+            border: 4px solid #fff;
             color: #FFF;
-            background-image: url("../../img/bg.jpg");
+            background-image: url("../../img/bg-2.jpg");
             width: 100%;
             box-sizing: border-box;
             text-align: left;
+            padding: 40px;
             @include mediaPC {
-              padding: 40px;              
               box-sizing: border-box
             }
             @include mediaSP {
-              padding: 15px;
+              padding: 20px;
               box-sizing: border-box
             }
             .handson {
@@ -84,9 +84,9 @@ p {
                   @include mediaSP {
                     margin-right: 10px;
                     width: 100%;
-                    height: 40px;
+                    height: 60px;
                     padding: 8px 0px;
-                    font-size: 13px;
+                    font-size: 1.6em;
                   }
                 }
                 br {
@@ -100,36 +100,45 @@ p {
                   padding: 16px 0px;
                   box-sizing: border-box;
                   font-weight: bold;
-                   @include mediaSP {                    
-                    font-size: 18px;
+                  font-size: 1.5em;
+                   @include mediaSP {
+                     font-size: 1.4em;
                   }             
                 }
                 &__summary {
                   margin-top: 30px;
                   margin-bottom: 50px;
-                  font-size: 14px;
                   @include mediaSP {
                     margin-top: 20px;
                     margin-bottom: 30px;
+                    font-size: 1.1em;
                   }
                 }
                 &__target {
-                  word-break: keep-all;
+                  margin-bottom: 1em;
+                  @include mediaSP {
+                    text-align: center;
+                  }
                   &__title {
                     font-size: 15px;
                     margin-right: 10px;
                   }
                   &__item {
-                    padding: 2px 15px;
-                    font-size: 12px;
+                    display: inline-block;
+                    text-align: center;
                     background-color: #FFF;
-                    border-radius: 5px;
+                    border-radius: 8px;
                     color: $font;
                     margin-left: 10px;
+                    font-size: 1em;
+                    span {
+                      padding: 2px 15px;
+                    }
                     @include mediaSP {
+                      margin-bottom: .8em;
                       margin-left: 0px;
                       margin-right: 2px;
-                      font-size: 12px;
+                      font-size: .9em;
                     }
                   }
                 }
@@ -168,7 +177,9 @@ p {
                 }
                 &__name {
                   margin-bottom: 10px;
-                  font-size: 20px; 
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  font-family: $font_set_ja;
                   @include mediaPC {
                     width: calc(100% - $icon_size + 20px);
                     height: auto;      
@@ -179,11 +190,12 @@ p {
                     height: 100px;
                     padding: 38px 0;
                     box-sizing: border-box;
-                    margin-bottom: 10px;     
-                    font-size: 15px;
+                    margin-bottom: 10px;
+                    font-size: 1em;
                   }
                 }
-                &__link {                  
+                &__link {
+                  margin-left: 20px;
                   border-radius: 50%;
                   border: solid 1px #FFF;
                   background-color: rgba(255,255,255,0.8);                  
@@ -194,11 +206,11 @@ p {
                     vertical-align: text-top;
                     color: #A8A19E;
                     font-size: 22px;
-                    margin-top: 1px;
+                    margin-top: -3px;
                     @include mediaSP {
                       vertical-align: middle;
                       font-size: 13px;
-                      margin-top: -7px;
+                      margin-top: -8px;
                     }               
                   }
                   @include mediaPC {
@@ -209,19 +221,19 @@ p {
                   @include mediaSP {
                     width: 20px;
                     height: 20px;
-                    margin-left: 1px;
+                    margin-left: 6px;
                   }                  
                 }
                 &__introduction {
-                  font-family: "yu-gosic";
-                  word-break: break-all;
                   float: right;
-                  font-size: 14px;
+                  font-family: $font_set_ja;
+                  font-size: 1em;
+                  word-break: break-all;
                   @include mediaPC {
                     width: calc(100% - 120px);
                   }
                   @include mediaSP {
-                    font-size: 13px;
+                    font-size: 1em;
                   }
                 }
               }
@@ -234,6 +246,9 @@ p {
               }
               &__to-detail {
                 text-align: center;
+                &__title {
+                  margin-bottom: 1em;
+                }
                 &__btn {
                   @include btn--line();
                 }
@@ -246,6 +261,7 @@ p {
           &__item--markup {
             background-position: 95% 0;
             background-size: 500%;
+            background-repeat: no-repeat;
             @include mediaSP {
               background-size: 1500%;
             }
@@ -253,6 +269,7 @@ p {
           &__item--designer {
             background-position: 95% 90%;
             background-size: 400%;
+            background-repeat: no-repeat;
             @include mediaSP {
               background-size: 800%;
             }
@@ -260,8 +277,9 @@ p {
           &__item--engineer {
             background-position: 0 0;
             background-size: 300%;
+            background-repeat: no-repeat;
             @include mediaSP {
-              background-size: 500%;
+              background-size: 580%;
             }
           }
         }

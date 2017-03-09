@@ -6,11 +6,9 @@ section#session__child
             h2.session__subtitle セッション
     .session__child__content__background
         p.session__child__content__summary
-            | 昨年人気だったハンズオン企画を今年も開催します！
+            | 著名登壇陣 15名による 豪華セッション！
             br
-            | 実際に手を動かしながら流行りのツールやフレームワークの学習ができます。
-            br
-            | メンターによるサポートもありますので初心者の方も是非、参加してみてください。
+            | フロントエンドのエンジニアリングや、マークアップ、デザインなど、Webに関わる全ての人に是非届けたい珠玉のセッション構成でお送りしております
         .session-detail-list
             each session in speaker_lists
                 .session-detail-list__item(class="session-detail-list__item--" + session.field id=session.id)
