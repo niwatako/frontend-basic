@@ -13,7 +13,7 @@ Webで働く全ての人のために、FRONTEND CONFERENCE 2017、大阪にて20
 clone して`npm i`すれば動きます。
 
 ````
-$ git clone https://github.com/chatbox-inc/frontend
+$ git clone https://github.com/kfug/frontconf2017
 $ npm i
 ```` 
 
