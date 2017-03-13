@@ -2,8 +2,11 @@ var map;
 var marker;
 
 window.initMap = () => {
+    const mapElement = document.getElementById('map');
+    if (!mapElement) { return; }
+
     var myLatLng = {lat: 34.701971, lng: 135.488924};
-    map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(mapElement, {
         zoom: 1,
         center: myLatLng,
         scrollwheel: false,
