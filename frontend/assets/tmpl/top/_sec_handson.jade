@@ -15,25 +15,12 @@ section#handson
             br
             | メンターによるサポートもありますので初心者の方も是非、参加してみてください。
             ul.handson__lists
-                li.handson__list.handson__list--designer
-                    span.handson__list__head XD
-                    p.handson__list__body XDを使ってモックアップを作ろう
-                li.handson__list.handson__list--designer
-                    span.handson__list__head Sketch
-                    p.handson__list__body sketchの基本操作を覚えて業務に活かそう
-                li.handson__list.handson__list--markup
-                    span.handson__list__head gulp , Sass , Pug
-                    p.handson__list__body gulpで学ぶSassとPug
-                li.handson__list.handson__list--engineer
-                    span.handson__list__head React
-                    p.handson__list__body Reactで覚えるイマドキのフロントエンド開発
-                li.handson__list.handson__list--markup
-                    span.handson__list__head Netlify
-                    p.handson__list__body Netlifyで作ったSPAやwebサイトを公開しよう
-                li.handson__list.handson__list--engineer
-                    span.handson__list__head Angular
-                    p.handson__list__body Angular入門者ハンズオン
+                each handson in handson_lists
+                    li
+                        a(class="handson__list handson__list--"+handson.field)(href="./handson.html#"+handson.id)
+                            span.handson__list__head #{handson.technology}
+                            p.handson__list__body #{handson.title}
             .btn--handson
-                a.handson__detaill__link(href="/frontconf2017/handson.html")
+                a.handson__detaill__link(href="./handson.html")
                     span HANDSON 詳細をみる
             br

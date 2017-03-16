@@ -12,7 +12,7 @@ section#handson__child
             | メンターによるサポートもありますので初心者の方も是非、参加してみてください。
         .handson-list
             each handson in handson_lists
-                .handson-list__item(class="handson-list__item--" + handson.field)
+                .handson-list__item(class="handson-list__item--" + handson.field id=handson.id)
                     .handson__info
                         .handson__info__technology 
                             span #{handson.technology}

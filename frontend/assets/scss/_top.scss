@@ -492,6 +492,14 @@ p {
       .handson__lists{
         margin-bottom: 3em;
         padding: 0;
+        li {
+          list-style: none;
+        }
+        a {
+          &:hover {
+            opacity: .8;
+          }
+        }
         .handson__list{
           list-style: none;
           width:800px;
@@ -499,6 +507,7 @@ p {
           border-radius: 4px;
           background-image: url("../../img/bg-2.jpg");
           display: flex;
+
           @include mediaSP {
                 width: 100%;
                 flex-direction: column;
@@ -509,6 +518,7 @@ p {
               padding:10px;
               box-sizing: border-box;
               border-radius: 3px 0px 0px 3px;
+              color: $font;
               @include mediaSP {
                 border-radius: 3px 3px 0 0;
                 width: 100%;
