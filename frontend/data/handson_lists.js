@@ -21,7 +21,7 @@ module.exports = [
   {
     id: 1,
     technology: "Sketch",
-    title: "sketchを使ってチームで使う制作フローを体験しよう",
+    title: "sketchの基本操作を覚えて業務に活かそう",
     summary: "sketchを使って効率的な制作フローを経験していただきます",
     target: [
       "ディレクター",
@@ -106,7 +106,7 @@ module.exports = [
       photo: "mentor6.jpg",
       introduction: "株式会社ピクセルグリッド所属のフロントエンド・エンジニア。Angularコミュニティng-kyoto代表。大規模Webアプリケーションの設計、構築を得意とする。"
     },
-    // detail_link: "https://kfug.connpass.com/event/51697/",
+    detail_link: "https://kfug.connpass.com/event/51697/",
     field: "engineer"
   },
 ]

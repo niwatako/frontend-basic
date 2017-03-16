@@ -12,7 +12,7 @@ section#handson__child
             | メンターによるサポートもありますので初心者の方も是非、参加してみてください。
         .handson-list
             each handson in handson_lists
-                .handson-list__item(class="handson-list__item--" + handson.field)
+                .handson-list__item(class="handson-list__item--" + handson.field id=handson.id)
                     .handson__info
                         .handson__info__technology 
                             span #{handson.technology}
@@ -40,5 +40,5 @@ section#handson__child
                                 a.handson__to-detail__link(href=handson.detail_link ,target="_blank")
                                     span 詳細を見る
         .btn--to-top
-            a(href="/").to-top__link
+            a(href="./").to-top__link
                 span TOPに戻る
