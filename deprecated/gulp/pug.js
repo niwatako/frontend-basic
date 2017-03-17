@@ -18,7 +18,7 @@ gulp.task("pug",()=> {
         }))
         .pipe($.pug({
             locals:{
-                handson_lists: require("../data/handson_lists.js"),
+                handson_lists: require(".././handson_lists.js"),
             },
             pretty:true
         }))

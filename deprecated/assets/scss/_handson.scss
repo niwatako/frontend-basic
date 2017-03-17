@@ -1,5 +1,5 @@
-@import "lib/_value.scss";
-@import "lib/_mixin.scss";
+@import "lib/value";
+@import "lib/mixin";
 
 a {
   color: $blue;
@@ -27,7 +27,7 @@ p {
   .handson__child { 
     &__title__background {
       @include section--title--background;
-      background-image: url("../../img/heading_handson.png");      
+      background-image: url("../../img/heading_handson.png");
       color: #FFF;
     }
     &__content {
@@ -186,7 +186,7 @@ p {
                   font-size: 1.2em;
                   font-family: $font_set_ja;
                   @include mediaPC {
-                    width: calc(100% - $icon_size + 20px);
+                    //width: calc(100% - $icon_size + 20px);
                     height: auto;      
                   }
                   @include mediaSP {
