@@ -18,9 +18,6 @@ gulp.task("pug",()=> {
         }))
         .pipe($.pug({
             locals:{
-                sponsor_lists: require("../../deprecated/frontend/data/sponsor_lists.js"),
-                sponsorBy_lists: require("../../deprecated/frontend/data/sponsorBy_lists.js"),
-                speaker_lists: require("../../deprecated/frontend/data/speaker_lists.js"),
                 handson_lists: require("../data/handson_lists.js"),
             },
             pretty:true

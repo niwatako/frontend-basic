@@ -69,10 +69,7 @@ body{
   z-index: -1;
 }
 
-@import "../../../deprecated/frontend/assets/scss/top";
-@import "../../../deprecated/frontend/assets/scss/session";
 @import "_handson.scss";
-@import "../../../deprecated/frontend/assets/scss/contest";
 
 #footer {
   padding: 20px 0 40px;
