@@ -9,8 +9,8 @@ global.dest = "./public/";
 
 require("./frontend/gulp/pug.js")
 require("./frontend/gulp/sass.js")
-require("./frontend/gulp/webpack.js")
-require("./frontend/gulp/styleguide.js")
+// require("./deprecated/frontend/gulp/webpack.js")
+// require("./deprecated/frontend/gulp/styleguide.js")
 require("./frontend/gulp/browserSync.js")
 
 
