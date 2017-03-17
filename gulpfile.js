@@ -1,22 +1,29 @@
-const gulp = require("gulp");
-const runSequence = require("run-sequence");
+var gulp = require("gulp"); //gulp使うよ、宣言
 
-global.watch = [];
-global.build = [];
-
-global.src = "./frontend/";
-global.dest = "./public/";
-
-require("./frontend/gulp/pug.js")
-require("./frontend/gulp/sass.js")
-require("./frontend/gulp/browserSync.js")
-
-
-gulp.task("watch",global.watch)
-
-gulp.task("build",(cb)=>{
-    global.build.push(cb)
-    runSequence.apply(this,global.build)
+gulp.task("default", function () {
+    console.log("Hello World!"); //$gulp を実行すると"Hello World!"と出力される
 })
 
-gulp.task("default",["watch"])
+
+// const gulp = require("gulp");
+// const runSequence = require("run-sequence");
+//
+// global.watch = [];
+// global.build = [];
+//
+// global.src = "./frontend/";
+// global.dest = "./public/";
+//
+// require("./frontend/gulp/pug.js")
+// require("./frontend/gulp/sass.js")
+// require("./frontend/gulp/browserSync.js")
+//
+//
+// gulp.task("watch",global.watch)
+//
+// gulp.task("build",(cb)=>{
+//     global.build.push(cb)
+//     runSequence.apply(this,global.build)
+// })
+//
+// gulp.task("default",["watch"])
