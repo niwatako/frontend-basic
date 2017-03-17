@@ -1,0 +1,9 @@
+$color: lightblue;
+
+@mixin button($bgc, $color) {
+  display: inline-block;
+  text-decoration: none;
+  background-color: $bgc;
+  color: $color;
+  border-radius: 4px;
+}

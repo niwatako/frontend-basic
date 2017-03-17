@@ -1,0 +1,15 @@
+@import "value";
+@import "header";
+
+.container {
+  &_title {
+    color: $color;
+    text-decoration: underline;
+  }
+  &_subTitle {
+    color: cornflowerblue;
+  }
+}
+.button {
+  @include button(lightblue, white);
+}

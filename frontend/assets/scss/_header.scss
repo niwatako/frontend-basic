@@ -1,0 +1,8 @@
+.menu {
+  padding-left: 0;
+  &_item {
+    list-style-type: none;
+    cursor: pointer;
+    @include button(lightcoral, white)
+  }
+}
