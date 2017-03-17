@@ -35,27 +35,3 @@ gulp.task("watch", function(){
     gulp.watch(["./frontend/assets/scss/**/*.scss"], ["scss"]);
     gulp.watch(["./frontend/assets/tmpl/**/*.pug"], ["pug"]);
 });
-
-
-// const gulp = require("gulp");
-// const runSequence = require("run-sequence");
-//
-// global.watch = [];
-// global.build = [];
-//
-// global.src = "./frontend/";
-// global.dest = "./public/";
-//
-// require("./frontend/gulp/pug.js")
-// require("./frontend/gulp/sass.js")
-// require("./frontend/gulp/browserSync.js")
-//
-//
-// gulp.task("watch",global.watch)
-//
-// gulp.task("build",(cb)=>{
-//     global.build.push(cb)
-//     runSequence.apply(this,global.build)
-// })
-//
-// gulp.task("default",["watch"])
