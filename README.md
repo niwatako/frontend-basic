@@ -1,26 +1,6 @@
-# FRONTEND CONFERENCE 2017
+# gulpで学ぶSassとpug
 
+FRONTEND CONFERENCE 2017 のハンズオン用リポジトリです。
+詳細、スライド等は以下のconnpassページを御覧ください。
 
-http://kfug.jp/frontconf2017
-
-Webで働く全ての人のために、FRONTEND CONFERENCE 2017、大阪にて2017年 3月18日開催
-
-![FRONTEND CONFERENCE 2017](http://kfug.jp/frontconf2017/img/ogp.jpg)
-
-
-## FOR CONTRIBUTOR
-
-clone して`npm i`すれば動きます。
-
-````
-$ git clone https://github.com/kfug/frontconf2017
-$ npm i
-```` 
-
-`gulp` ウォッチ
-
-`gulp server` 開発用サーバ
-
-`gulp build` ビルド
-
-masterブランチへのpushで自動で公開されるので、PR運用お願いします。
+https://kfug.connpass.com/event/51695/
